@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Transfermrkt Explorer</title>
+</head>
+<body>
+    <div id="Players">
+        <h2>Transfermrkt Explorer</h2>
+        <div class="inputs">
+            <select name="Countries" onChange="combo(this, 'demo')">
+                <option>Select Country</option>
+                <option value="AR">Argentina</option>
+                <option value="BR">Brazil</option>
+                <option value="CO">Colombia</option>
+                <option value="FR">France</option>
+                <option value="DE">Germany</option>
+                <option value="MX">Mexico</option>
+            </select>
+            <select name="Clubs" onChange="combo(this, 'demo')">
+                <option>Select Club</option>
+                <option value="CA River Plate">CA River Plate</option>
+                <option value="CA Boca Juniors">CA Boca Juniors</option>
+                <option value="Racing Club">Racing Club</option>
+                <option value="CA Velez Sarsfield">CA Vélez Sarsfield</option>
+                <option value="Club Atlético Talleres">Club Atlético Talleres</option>
+            </select>
+        </div>
+        <div class="playersDiv"></div>
+    </div>
+</body>
+</html>
